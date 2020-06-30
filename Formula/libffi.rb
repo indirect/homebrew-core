@@ -14,7 +14,7 @@ class Libffi < Formula
   end
 
   head do
-    url "https://github.com/atgreen/libffi.git"
+    url "https://github.com/libffi/libffi.git"
     depends_on "autoconf" => :build
     depends_on "automake" => :build
     depends_on "libtool" => :build
