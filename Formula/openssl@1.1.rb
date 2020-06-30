@@ -26,7 +26,7 @@ class OpensslAT11 < Formula
       no-ssl3
       no-ssl3-method
       no-zlib
-    ]
+    ].tap{|a| a << "no-asm" if Hardware::CPU.arm? }
   end
 
   def install
